@@ -1,7 +1,7 @@
 # chat-analyzer
 A very simple text analysis implementation that is written for very special purposes.
 
-# About this project
+## About this project
 
 This project is a brief code snippet consisting of a single Java class that;
 
