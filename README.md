@@ -35,3 +35,6 @@ Since this project is basically a single-purpose code snippet, it is already not
 
 - The source code is overall quite messy. Some literals such as the input/output file paths and the number of tokens to be written to the output are hard-coded as the static fields of the class. Thus, it is required to modify these fields to work with different values. It would be better to read these from the program arguments or a configuration file.
 - Some emojis (e.g. "♥️") cannot be separated when they occur consecutively. A workaround, as used in the "♥️" case, is to explicitly put these emojis (or other such patterns, if any) into the emoji-matching pattern defined inside the code as a local variable.
+
+<sub><sup>Written with love ♥️</sup></sub>
+<sub><sup>Onur Çelik, 2023</sup></sub>
