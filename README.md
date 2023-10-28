@@ -29,3 +29,9 @@ consectetur=24
 ```
 
 One can also generate a second output, where instead of the number of occurrences of each token being denoted, the token itself is repeated that many times consecutively in its corresponding line. This is to provide a representation of the same data that can be used with services like [wordclouds.com](https://www.wordclouds.com/) more conveniently.
+
+## Limitations
+Since this project is basically a single-purpose code snippet, it is already not expected to cover anything beyond that particular task. However, there are also things that it cannot handle even though it probably should:
+
+- The source code is overall quite messy. Some literals such as the input/output file paths and the number of tokens to be written to the output are hard-coded as the static fields of the class. Thus, it is required to modify these fields to work with different values. It would be better to read these from the program arguments or a configuration file.
+- Some emojis (e.g. "♥️") cannot be separated when they occur consecutively. A workaround, as used in the "♥️" case, is to explicitly put these emojis (or other such patterns, if any) into the emoji-matching pattern defined inside the code as a local variable.
